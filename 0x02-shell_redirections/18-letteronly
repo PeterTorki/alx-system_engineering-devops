@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /etc/ssh/sshd_config | grep "Ac" "Ze"
+cat /etc/ssh/sshd_config | grep '^[[:alpha:]]'
